@@ -28,8 +28,8 @@ signal = signal - mean(signal);
 %% create Gaussian spectral shape
 
 % specify Gaussian parameters
-peakf = 11;
-fwhm  = 5.2;
+peakf = 1;
+fwhm  = 1;
 
 % vector of frequencies
 hz = linspace(0,srate,n);
